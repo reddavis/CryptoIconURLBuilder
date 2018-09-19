@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4B982F8213338E700D40E12"
-               BuildableName = "CryptoIconURLBuilder_iOS.framework"
+               BuildableName = "CryptoIconURLBuilder.framework"
                BlueprintName = "CryptoIconURLBuilder iOS"
                ReferencedContainer = "container:CryptoIconURLBuilder.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B982F8213338E700D40E12"
-            BuildableName = "CryptoIconURLBuilder_iOS.framework"
+            BuildableName = "CryptoIconURLBuilder.framework"
             BlueprintName = "CryptoIconURLBuilder iOS"
             ReferencedContainer = "container:CryptoIconURLBuilder.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B982F8213338E700D40E12"
-            BuildableName = "CryptoIconURLBuilder_iOS.framework"
+            BuildableName = "CryptoIconURLBuilder.framework"
             BlueprintName = "CryptoIconURLBuilder iOS"
             ReferencedContainer = "container:CryptoIconURLBuilder.xcodeproj">
          </BuildableReference>

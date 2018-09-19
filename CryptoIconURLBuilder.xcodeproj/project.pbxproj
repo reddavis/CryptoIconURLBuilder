@@ -224,10 +224,11 @@
 				TargetAttributes = {
 					A4B982D321332F4300D40E12 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1000;
 					};
 					A4B982DC21332F4300D40E12 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					A4B982F8213338E700D40E12 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -456,7 +457,7 @@
 				PRODUCT_NAME = CryptoIconURLBuilder;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -483,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.CryptoIconURLBuilder;
 				PRODUCT_NAME = CryptoIconURLBuilder;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -502,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.CryptoIconURLBuilderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -521,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.CryptoIconURLBuilderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
