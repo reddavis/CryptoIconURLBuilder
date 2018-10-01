@@ -13,6 +13,8 @@
 		A4B982F32133300800D40E12 /* CryptoIconURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B982F22133300800D40E12 /* CryptoIconURLBuilder.swift */; };
 		A4B983012133397600D40E12 /* CryptoIconURLBuilder_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B982FB213338E700D40E12 /* CryptoIconURLBuilder_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B983022133397C00D40E12 /* CryptoIconURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B982F22133300800D40E12 /* CryptoIconURLBuilder.swift */; };
+		A4ED708221621F20000C523C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ED708121621F20000C523C /* Color+Hex.swift */; };
+		A4ED708321621F20000C523C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ED708121621F20000C523C /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		A4B982F9213338E700D40E12 /* CryptoIconURLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoIconURLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B982FB213338E700D40E12 /* CryptoIconURLBuilder_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoIconURLBuilder_iOS.h; sourceTree = "<group>"; };
 		A4B982FC213338E700D40E12 /* Info iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info iOS.plist"; sourceTree = "<group>"; };
+		A4ED708121621F20000C523C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +135,17 @@
 			isa = PBXGroup;
 			children = (
 				A4B982F22133300800D40E12 /* CryptoIconURLBuilder.swift */,
+				A4ED708021621F0E000C523C /* Extensions */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A4ED708021621F0E000C523C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4ED708121621F20000C523C /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B982F32133300800D40E12 /* CryptoIconURLBuilder.swift in Sources */,
+				A4ED708221621F20000C523C /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B983022133397C00D40E12 /* CryptoIconURLBuilder.swift in Sources */,
+				A4ED708321621F20000C523C /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

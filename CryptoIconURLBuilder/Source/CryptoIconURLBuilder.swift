@@ -16,18 +16,29 @@ public struct CryptoIconURLBuilder
     public let style: Style
     public let size: Int
     public let url: URL
+    public let color: Color?
     
     // Private
     private let baseURL = URL(string: "https://cryptoicons.org")!
     
     // MARK: Initialization
     
-    public init(style: Style, code: String, size: Int)
+    public init(style: Style, code: String, size: Int, color: Color? = nil)
     {
         self.style = style
         self.code = code
         self.size = size
-        self.url = self.baseURL.appendingPathComponent("api/\(style.rawValue)/\(code.lowercased())/\(size)")
+        self.color = color
+        
+        let url = self.baseURL.appendingPathComponent("api/\(style.rawValue)/\(code.lowercased())/\(size)")
+        if let unwrappedColor = color
+        {
+            self.url = url.appendingPathComponent(unwrappedColor.hex)
+        }
+        else
+        {
+            self.url = url
+        }
     }
 }
 
